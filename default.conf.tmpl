@@ -1,0 +1,5 @@
+server {
+    server_name localhost;
+    listen 80;
+    rewrite (.*) {{ .Env.REDIRECT }}$1 permanent;
+}
