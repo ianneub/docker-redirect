@@ -1,5 +1,7 @@
 # Simple HTTP redirect
 
+[![](https://badge.imagelayers.io/ianneub/redirect:latest.svg)](https://imagelayers.io/?images=ianneub/redirect:latest 'Get your own badge on imagelayers.io')
+
 This docker image will redirect all HTTP requests on port 80 to the root path specified in the `REDIRECT` environment variable.
 
 The entire URI will be sent to the redirected path like this:
